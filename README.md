@@ -5,5 +5,5 @@ A set of jQuery things to defer images to page load and choose image depending o
 
 Expects you to have this in your HTML
 
-    <img src="" narrowsrc="http://domain.com/img/small.jpg" largesrc="http://domain.com/img/large.jpg" />
+    <img class="defer" src="" narrowsrc="http://domain.com/img/small.jpg" largesrc="http://domain.com/img/large.jpg" />
     <noscript><img src="http://domain.com/img/large.jpg" /></noscript>
